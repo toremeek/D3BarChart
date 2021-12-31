@@ -1,0 +1,21 @@
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>D3</title>
+</head>
+<body>
+    <div id="slider">
+        <span>all</span>
+        <input type="range" id="sales-range" value="0" oninput="this.nextElementSibling.value = this.value">
+        <output>0</output>
+        <span id="rangevalue"></span>
+        <span>Best sellers</span>
+    </div>
+    <div id="viz"></div>
+    <script src="index.js"></script>
+</body>
+</html>
